@@ -1,5 +1,6 @@
 import random
-
+from art import logo
+print(logo)
 
 def deal_card():
     """Returns a random card from the deck"""
