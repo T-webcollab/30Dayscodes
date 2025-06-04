@@ -3,6 +3,7 @@ from GUESS_LOGO import logo
 print (logo)
 num=random.randint(1,100)
 print("WELCOME TO NUMBER GUESSING GAME")
+print("A NUMBER IS CHOOSEN BETWEEN 1 AND 100")
 def difficulty():
     choose=input("Enter difficulty level: HARD OR EASY: ").lower()
     if choose =="easy":
